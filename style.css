@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+body{
+    background-image:url(https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+img{
+    width: 55px;
+    margin-bottom:20px;
+}
+h2{
+    margin-bottom:20px;
+}
+.login,
+.form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.login{
+    background-color:#e0dcdc;
+    padding:  126px  88px  126px 88px;
+    border-radius:20px;
+}
+input{
+    display:flex;
+    border: none;
+    outline:none;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+    align-items:center;
+}
+a{
+    text-decoration:none;
+    color:blue;
+    /* display: flex; */
+    /* align-self: flex-end; */
+    position:relative;
+    top:50px;
+    
+}
+button{
+    background-color:blue;
+    padding: 6px 33px 6px 33px;
+    border:none;
+    border-radius:30px;
+    color:white;
+}
+.form{
+    margin:0px 0px 0px 0px;
+}
+button:hover{
+    background-color:red;
+}
+a:hover{
+    color:red;
+}
